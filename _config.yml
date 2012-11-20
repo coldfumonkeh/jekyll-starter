@@ -1,0 +1,20 @@
+safe: false                           # disables custom plugins. True or False
+auto: true                            # Enables or disables Jekyll from recreating the site when files are modified
+server: false                         # Fires up a server that will host your _site directory
+# server_port:                        # Changes the port that the Jekyll server will run on (4000)
+# baseurl:                            # Serve website from a given base URL (/)
+# url:                                # Sets site.url, useful for environment switching
+
+# source:                             # Changes the directory where Jekyll will look to transform files
+# destination: _site                  # Changes the directory where jekyll will write files to
+plugins: _plugins                     # Changes the directory where jekyll will access plugins from.
+
+markdown: maraku                      # Uses RDiscount or any other engine instead of Maraku (default)
+pygments: true                        # Enables highlight tag with Pygments
+future: false                         # Published posts with a future date. True of false.
+lsi: true                             # Produces an index for related posts. True or false.
+permalink: /:year/:month/:day/:title  # Controls the URLs that posts are generated with.
+paginate: 5                           # Splits your posts up over multiple subdirectories called “page2”, “page3”, … “pageN
+exclude:                              # A list of directories and files to exclude from the conversion
+include:                              # A list of directories and files to specifically include in the conversion. .htaccess is a good example since dotfiles are excluded by default.
+limit_posts:                          # Limits the number of posts to parse and publish
