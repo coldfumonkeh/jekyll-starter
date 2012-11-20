@@ -1,4 +1,4 @@
-jekyll-starter
+Jekyll Starter Project
 ==============
 
-A simple Jekyll static site generation structure
+This is the base structure for a simple Jekyll static HTML generation application.
