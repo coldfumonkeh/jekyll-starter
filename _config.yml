@@ -9,7 +9,7 @@ server: false                         # Fires up a server that will host your _s
 # destination: _site                  # Changes the directory where jekyll will write files to
 plugins: _plugins                     # Changes the directory where jekyll will access plugins from.
 
-markdown: maraku                      # Uses RDiscount or any other engine instead of Maraku (default)
+markdown: maruku                      # Uses RDiscount or any other engine instead of Maruku (default)
 pygments: true                        # Enables highlight tag with Pygments
 future: false                         # Published posts with a future date. True of false.
 lsi: true                             # Produces an index for related posts. True or false.
